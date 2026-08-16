@@ -32,7 +32,7 @@ public class TagElectronico {
         this.saldo = saldo;
     }
 
-    public boolean isActivo() {
+    public boolean getActivo() {
         return activo;
     }
 
