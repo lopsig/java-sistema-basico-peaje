@@ -1,7 +1,7 @@
 package com.krakedev.peaje.util;
 
 public class ValidadorUtil {
-    public boolean esMontoValido (double monto) {
+    public static boolean esMontoValido (double monto) {
         if (monto > 0) {
             return true;
         } else {
@@ -10,7 +10,7 @@ public class ValidadorUtil {
 
     }
 
-    public boolean esTipoValido (String tipo) {
+    public static boolean esTipoValido (String tipo) {
         if (tipo == "L" || tipo == "P") {
             return true;
         } else {
