@@ -44,5 +44,7 @@ public class TagElectronico {
         String mensaje = "ID Tag: " + idTag +
                 "\nSaldo: " + saldo +
                 "\nActivo: " + activo;
+
+        System.out.println(mensaje);
     }
 }

@@ -48,6 +48,8 @@ public class Vehiculo {
     public void imprimir() {
         String mensaje = "Placa: " + placa +
                 "\nTipo: " + tipo;
+
+        System.out.println(mensaje);
     }
 
 
